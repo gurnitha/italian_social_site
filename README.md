@@ -30,3 +30,9 @@
         modified:   README.md
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py
+
+### 4.4 Parte III - Templates - testing by registering users
+
+        modified:   README.md
+        modified:   app/accounts/templates/accounts/registrazione.html
+        modified:   db.sqlite3
