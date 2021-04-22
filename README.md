@@ -15,3 +15,12 @@
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py
         new file:   templates/base.html
+
+### 4.2 Parte III - Templates - install django_crispy_forms
+
+		> pip install django_crispy_forms
+        modified:   README.md
+        modified:   app/accounts/templates/accounts/registrazione.html
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
+        modified:   templates/base.html

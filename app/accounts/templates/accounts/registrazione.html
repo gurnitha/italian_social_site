@@ -1,9 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Accounts</title>
-</head>
-<body>
-	<h1>Accounts page</h1>
-</body>
-</html>
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <div class="row justify-content-center">
+        <div class="col-6 text-center">
+            <h2>Registrati sul Forum!</h2>
+            <form class="" method="POST" novalidate>
+                {% csrf_token %}
+                {{ form | crispy }}
+                <input type="submit" class="btn btn-info" value="Crea Account">
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}
