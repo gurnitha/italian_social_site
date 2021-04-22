@@ -24,3 +24,9 @@
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py
         modified:   templates/base.html
+
+### 4.3 Parte III - Templates - adding bootstrap4 pack
+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py

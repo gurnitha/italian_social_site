@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     # third party
     'crispy_forms',
-    
+
     # first party
     'app.accounts.apps.AccountsConfig',
 ]
@@ -126,3 +126,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# NEW
+CRISPY_TEMPLATE_PACK = "bootstrap4"
