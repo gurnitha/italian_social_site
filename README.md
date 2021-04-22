@@ -3,3 +3,5 @@
 ### 1. Create virtual environment
 
 ### 2. Create django project 'config' and django app 'accounts'
+
+### 3. Create app 'accounts'
