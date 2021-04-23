@@ -44,6 +44,8 @@ INSTALLED_APPS = [
 
     # first party
     'app.accounts.apps.AccountsConfig',
+    'app.core.apps.CoreConfig',
+    'app.forum.apps.ForumConfig',
 ]
 
 MIDDLEWARE = [

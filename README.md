@@ -133,3 +133,13 @@
         new file:   templates/registration/password_reset_done.html
         new file:   templates/registration/password_reset_email.html
         new file:   templates/registration/password_reset_form.html        
+
+## 5. PARTE IV - APPLICATZINE CORE E APPLICAZIONE FORUM
+
+### 5.1 Create new apps called 'core' and 'forum'
+
+        > src
+        > mkdir core
+        > mkdir forum
+        > python manage.py startapp core app\core
+        > python manage.py startapp forum app\forum 
