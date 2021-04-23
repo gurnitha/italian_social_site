@@ -162,3 +162,13 @@
         modified:   config/urls.py
         modified:   db.sqlite3
         modified:   templates/registration/login.html
+
+### 5.4 Creating User profile page
+
+        modified:   README.md
+        modified:   app/core/__pycache__/urls.cpython-39.pyc
+        modified:   app/core/__pycache__/views.cpython-39.pyc
+        new file:   app/core/templates/core/user_profile.html
+        modified:   app/core/urls.py
+        modified:   app/core/views.py
+        modified:   db.sqlite3
