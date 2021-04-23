@@ -143,3 +143,9 @@
         > mkdir forum
         > python manage.py startapp core app\core
         > python manage.py startapp forum app\forum 
+
+### 5.2 Create and register templates for core's and forum's apps
+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py        
