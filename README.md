@@ -95,3 +95,11 @@
         modified:   db.sqlite3
         new file:   templates/registration/logged_out.html
         new file:   templates/registration/login.html
+
+### 3.4 Adding conditional to login and logout and show the logged in username
+
+		# after logged in, go to : http://127.0.0.1:8000/accounts/registrazione/
+		 
+        modified:   README.md
+        modified:   db.sqlite3
+        modified:   templates/base.html
