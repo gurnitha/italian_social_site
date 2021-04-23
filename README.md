@@ -36,3 +36,8 @@
         modified:   README.md
         modified:   app/accounts/templates/accounts/registrazione.html
         modified:   db.sqlite3
+
+### 4.5 Parte III - Templates - add navbar
+
+        modified:   app/accounts/templates/accounts/registrazione.html
+        modified:   templates/base.html
