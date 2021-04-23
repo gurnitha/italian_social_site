@@ -1,14 +1,14 @@
 # BUILDING SOCIAL SITE 'FORUM' USING DJANGO 2.2
 
-## 1. INTRODUZIONE AL PROGETTO
+## 0. INTRODUZIONE AL PROGETTO
 
-## 2. PARTE I - APPLICAZIONE ACCOUNTS
+## 1. PARTE I - APPLICAZIONE ACCOUNTS
 
 ### 1.1 Part I - Create virtual environment
 ### 1.2 Part I - Create django project 'config' and django app 'accounts'
 ### 1.3 Part I - Create app 'accounts'
 
-## 3. PARTE II - TEMPLATES
+## 2. PARTE II - TEMPLATES
 
 ### 2.1 Setting up templates
 
@@ -50,3 +50,4 @@
 
 ### Modified README.md
 
+### Modified README.md
