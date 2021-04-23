@@ -75,3 +75,23 @@
 	8. accounts/ password_reset/done/ [name='password_reset_done']
 	9. accounts/ reset/<uidb64>/<token>/ [name='password_reset_confirm']
 	10. accounts/ reset/done/ [name='password_reset_complete']
+
+### 3.2 Create login page
+
+	> create: templates/registration/login.html
+	> create: templates/registration/logout.html
+	> add login template
+
+        modified:   README.md
+        modified:   db.sqlite3
+        new file:   templates/registration/login.html
+        new file:   templates/registration/logout.html
+
+### 3.3 Create logged out page
+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
+        modified:   db.sqlite3
+        new file:   templates/registration/logged_out.html
+        new file:   templates/registration/login.html
