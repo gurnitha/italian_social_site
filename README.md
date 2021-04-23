@@ -99,7 +99,25 @@
 ### 3.4 Adding conditional to login and logout and show the logged in username
 
 		# after logged in, go to : http://127.0.0.1:8000/accounts/registrazione/
-		 
+
         modified:   README.md
         modified:   db.sqlite3
         modified:   templates/base.html
+
+### 3.5 Password change
+
+		# Steps:
+		> 1. Create : templates/registration/password_change_done.html
+		> 2. Create: templates/registration/password_change_form.html
+		> 3. Add template to each of them
+		> 4. Login, use the old credentials (admin, admin)
+		> 5. After login, go to: http://127.0.0.1:8000/accounts/password_change/
+		> 6. Change the password: 
+			current password: admin
+			new password    : password123~`
+		> 7. Result :)
+			
+        modified:   README.md
+        modified:   db.sqlite3
+        new file:   templates/registration/password_change_done.html
+        new file:   templates/registration/password_change_form.html        
