@@ -149,3 +149,16 @@
         modified:   README.md
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py        
+
+### 5.3 Create homepage (redirect to homepage after logging in)        
+
+        modified:   README.md
+        new file:   app/core/__pycache__/urls.cpython-39.pyc
+        new file:   app/core/__pycache__/views.cpython-39.pyc
+        new file:   app/core/templates/core/homepage.html
+        new file:   app/core/urls.py
+        modified:   app/core/views.py
+        modified:   config/__pycache__/urls.cpython-39.pyc
+        modified:   config/urls.py
+        modified:   db.sqlite3
+        modified:   templates/registration/login.html
