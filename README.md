@@ -51,3 +51,27 @@
 ### Modified README.md
 
 ### Modified README.md
+
+## 3. PARTE III - TEMPLATES E AUTENTICAZIONE
+
+### 3.1 Adding django auth
+
+	# open: config/urls and add this
+    path('accounts/', include('django.contrib.auth.urls')),
+
+	# run server and access this
+	http://127.0.0.1:8000/accounts/
+
+	# it returns these
+	Using the URLconf defined in config.urls, Django tried these URL patterns, in this order:
+
+	1. admin/
+	2. accounts/ registrazione/ [name='registrazione_view']
+	3. accounts/ login/ [name='login']
+	4. accounts/ logout/ [name='logout']
+	5. accounts/ password_change/ [name='password_change']
+	6. accounts/ password_change/done/ [name='password_change_done']
+	7. accounts/ password_reset/ [name='password_reset']
+	8. accounts/ password_reset/done/ [name='password_reset_done']
+	9. accounts/ reset/<uidb64>/<token>/ [name='password_reset_confirm']
+	10. accounts/ reset/done/ [name='password_reset_complete']
