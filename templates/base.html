@@ -39,14 +39,14 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Profile</a>
-                  <a class="dropdown-item" href="#">Aggiorna Password</a>
+                  <a class="dropdown-item" href="{% url 'password_change' %}">Aggiorna Password</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{% url 'logout' %}">Esci</a>
                 </div>
               </li>
             {% else %}
               <li class="nav-item">
-                <a class="nav-link" href="#">Registrazione</a>
+                <a class="nav-link" href="{% url 'registrazione_view' %}">Registrazione</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'login' %}">Login</a>

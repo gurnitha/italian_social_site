@@ -121,3 +121,15 @@
         modified:   db.sqlite3
         new file:   templates/registration/password_change_done.html
         new file:   templates/registration/password_change_form.html        
+
+### 3.6 Password reset
+
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
+        modified:   db.sqlite3
+        modified:   templates/base.html
+        new file:   templates/registration/password_reset_complete.html
+        new file:   templates/registration/password_reset_confirm.html
+        new file:   templates/registration/password_reset_done.html
+        new file:   templates/registration/password_reset_email.html
+        new file:   templates/registration/password_reset_form.html        
