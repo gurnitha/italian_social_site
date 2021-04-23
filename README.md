@@ -172,3 +172,14 @@
         modified:   app/core/urls.py
         modified:   app/core/views.py
         modified:   db.sqlite3
+
+### 5.5 Add link to Profile page and conditional to distinguished Your User Profile and User Profile
+
+        modified:   README.md
+        modified:   app/core/__pycache__/urls.cpython-39.pyc
+        modified:   app/core/__pycache__/views.cpython-39.pyc
+        modified:   app/core/templates/core/user_profile.html
+        modified:   app/core/urls.py
+        modified:   app/core/views.py
+        modified:   db.sqlite3
+        modified:   templates/base.html

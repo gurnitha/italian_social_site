@@ -13,8 +13,8 @@ def homepage(request):
 # Render User profile  after logging in
 # based-on its user_id
 # http://127.0.0.1:8000/user/1/	
-def userProfileView(request, user_id):
-	user = 	get_object_or_404(User, pk=user_id)
+def userProfileView(request, username):
+	user = 	get_object_or_404(User, username=username)
 	context = {'user':user}
 	return render(
 		request, 
